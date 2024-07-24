@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#text {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    position: relative;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh; /* Fallback for initial load */
+}
+
+.parallax img {
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+    transition: transform 0.2s ease-out;
+}
+
+#hill1, #hill2, #hill3, #hill4, #hill5, #leaf, #tree {
+    transition: all 0.2s ease;
+}
+
+.div2 {
+    background-color: #003329;
+}

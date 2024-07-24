@@ -1,0 +1,19 @@
+.div1{
+    background-color: #003329;
+    padding-top: 20dvh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10%;
+    
+
+}
+.div1 h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.div1 p{
+
+    padding-left: 30%;
+    color: #b9b9b9;
+}
