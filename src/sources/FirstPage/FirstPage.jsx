@@ -55,7 +55,7 @@ function FirstPage() {
         <img src={hill4} alt="" id='hill4' />
         <img src={hill5} alt="" id='hill5' />
         <img src={tree} alt="" id='tree' />
-        <h1 id='text'>I am Neature</h1>
+        <h1 id='text'>I am Nature</h1>
         <img src={leaf} alt="" id='leaf' />
         <img src={plant} alt="" id='plant' ref={plantRef} />
       </section>
