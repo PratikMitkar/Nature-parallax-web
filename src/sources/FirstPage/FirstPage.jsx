@@ -25,18 +25,10 @@ function FirstPage() {
       document.getElementById('hill4').style.left = value * -1.5 + 'px';
     };
 
-    const debounceScroll = () => {
-      let timeout;
-      return () => {
-        clearTimeout(timeout);
-        timeout = setTimeout(handleScroll, 10);
-      };
-    };
 
-    const debouncedHandleScroll = debounceScroll();
-    window.addEventListener('scroll', debouncedHandleScroll);
+    window.addEventListener('scroll', handleScroll);
 
-    return () => window.removeEventListener('scroll', debouncedHandleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   useEffect(() => {
