@@ -15,7 +15,7 @@ function App() {
       <ForthPage/>
       <SecondPage/>
       <ThirdPage/>
-      <div className='footer'>© 2024 Harris johnsen. All rights reserved</div>
+      <div className='footer'>© 2024 Pratik Mitkar. All rights reserved</div>
     </div>
 
     </>
